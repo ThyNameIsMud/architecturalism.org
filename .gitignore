@@ -49,34 +49,35 @@ Thumbs.db
 # "mu-plugins" directory
 # "plugins" directory
 # "themes" directory
-wp-content/*
-!wp-content/mu-plugins/
-!wp-content/plugins/
-!wp-content/themes/
+htdocs/wp-content/*
+!htdocs/wp-content/mu-plugins/
+!htdocs/wp-content/plugins/
+!htdocs/wp-content/themes/
 
 # ignore these plugins
-wp-content/plugins/hello.php
+htdocs/wp-content/plugins/hello.php
 
 # ignore specific themes
-wp-content/themes/twenty*/
+htdocs/wp-content/themes/twenty*/
 
 # ignore node/grunt dependency directories
 node_modules/*.log
 
-wp-config.php
-wp-content/advanced-cache.php
-wp-content/backup-db/
-wp-content/backups/
-wp-content/blogs.dir/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/uploads/
-wp-content/wp-cache-config.php
-wp-content/plugins/hello.php
+htdocs/wp-config.php
+htdocs/wp-content/advanced-cache.php
+htdocs/wp-content/backup-db/
+htdocs/wp-content/backups/
+htdocs/wp-content/blogs.dir/
+htdocs/wp-content/cache/
+htdocs/wp-content/upgrade/
+htdocs/wp-content/uploads/
+htdocs/wp-content/wp-cache-config.php
+htdocs/wp-content/plugins/hello.php
 
-/.htaccess
-/license.txt
-/readme.html
-/sitemap.xml
-/sitemap.xml.gz
+htdocs/.htaccess
+htdocs/license.txt
+htdocs/readme.html
+htdocs/sitemap.xml
+htdocs/sitemap.xml.gz
 
+node_modules
